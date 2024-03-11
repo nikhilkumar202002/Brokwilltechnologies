@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Poppins-semi;
+    src: url(Poppins/Poppins-SemiBold.ttf);
+}
+
+:root{
+    --primary: #7091F5;
+}
+.navbar-brand{
+    font-family: "Poppins-semi";
+    color: var(--primary);
+    font-size: 27px;
+}
+.btn:hover{
+    background-color: var(--primary);
+    transition:  all .3s ease;
+    color: white;
+}
+.dropdown{
+    margin-left: 20px;
+}
+.products-header p{
+    font-size: 20px;
+    color: rgb(37, 37, 37);
+    font-weight: 500;
+}
+.products-header{
+    margin-top: 30px;
+}
+.product-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+.card-review i{
+    color: #ffe234;
+}
