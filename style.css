@@ -36,3 +36,54 @@
 .card-review i{
     color: #ffe234;
 }
+.footer-header{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: rgb(241, 241, 241);
+    padding: 30px 120px;
+    margin-top: 100px;
+}
+.footer-left h1{
+    color: var(--primary);
+}
+.footer-navbars{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.footer-navlist ul{
+    list-style: none;
+}
+.footer-navlist ul li{
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media (max-width:1200px) {
+    .footer-left h1{
+        font-size: 18px;
+    }
+    .footer{
+        padding: 15px 50px;
+    }
+}
+
+@media (max-width:720px) {
+    .footer-left h1{
+        font-size: 18px;
+    }
+    .footer{
+        padding: 10px 20px;
+    }
+    .footer-header{
+        display: block;
+    }
+    .footer-navbars{
+        flex-wrap: wrap;
+    }
+    .footer-navlist ul li{
+        font-size: 12px;
+    }
+}
